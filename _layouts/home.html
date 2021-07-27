@@ -34,30 +34,28 @@ layout: default
     <h3 class="post-title" itemprop="name"><a class="post-title-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
   <div class="post-content" id="post-content" itemprop="postContent">
     {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-    {%- endif -%}
-        <a href="{{ post.url | relative_url }}" class="post-more waves-effect waves-button">Đọc thêm ...</a>
+          {{ post.excerpt }} {%- endif -%}<a href="{{ post.url | relative_url }}" class="post-more waves-effect waves-button">Đọc thêm ...</a>
   </div>
+  {%- if page.author -%}
+  <ul class="article-tag-list">
+    {% for author in page.author %}
+    <li class="article-tag-list-item"><a class="article-tag-list-link waves-effect waves-button" href="/tags/{{ author }}">{{ author }}</a></li>
+    {%- if forloop.last == false %} {% endif -%}
+    {% endfor %}
+  </ul>
+{%- endif -%}
+
+  {%- if page.author -%}
   <div class="post-footer">
     <ul class="article-tag-list">
+      {% for author in page.author %}
       <li class="article-tag-list-item">
-        <a class="article-tag-list-link waves-effect waves-button" href="/tags/MIME/">MIME
-        </a>
-      </li>
-      <li class="article-tag-list-item">
-        <a class="article-tag-list-link waves-effect waves-button" href="/tags/Server-Push/">Đẩy máy chủ
-        </a>
-      </li>
-      <li class="article-tag-list-item">
-        <a class="article-tag-list-link waves-effect waves-button" href="/tags/multipart/">nhiều phần
-        </a>
-      </li>
-      <li class="article-tag-list-item">
-        <a class="article-tag-list-link waves-effect waves-button" href="/tags/x-mixed-replace/">x-mix-thay
-        </a>
-      </li>
+        <a class="article-tag-list-link waves-effect waves-button" href="/tags/{{ author }}">{{ author }}</a>
+      </li>{%- if forloop.last == false %} {% endif -%}
+      {% endfor %}
     </ul>
   </div>
+  {%- endif -%}
     </article>
   </li>
       {%- endfor -%}

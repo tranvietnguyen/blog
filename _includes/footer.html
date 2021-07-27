@@ -1,16 +1,7 @@
 <!--thêm footer-->
 <footer class="footer">
   <div class="top"><p><span><a href="{{ 'feed.xml' | relative_url }}" target="_blank" class="rss" title="rss"><i class="icon icon-lg icon-rss"></i></a></span> <span>Nội dung blog tuân theo các <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">thỏa thuận Quốc tế Creative Commons Attribution - NonCommercial - ShareAlike 4.0</a></span></p></div>
-  <div class="bottom"><p><span>
-    {%- if site.author %}
-      {% if site.author.name -%}
-        {{ site.author.name | escape }} 
-      {% endif -%}
-      {% if site.author.email -%}
-      {{ site.author.email }}
-      {%- endif %}
-    {%- endif %}
-       © 2015-2018 </span> <span><a href="/" target="_blank">màu chàm</a></span></p></div>
+  <div class="bottom"><p><span>{{ site.author.name | escape }} © 2021 </span> <span><a href="/" target="_blank">màu chàm</a></span></p></div>
 </footer>
 <!--hết thêm footer-->
 

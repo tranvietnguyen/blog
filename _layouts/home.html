@@ -21,7 +21,49 @@ layout: default
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
-    <ul class="post-list">
+<!--mới nè-->
+<ul class="post-list">
+  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      {%- for post in posts -%}
+  <li class="post-list-item fade in">
+    <article class="article-card article-type-post" itemprop="blogPost">
+      <div class="post-meta">
+        <time class="post-time" title="{{ post.date | date: date_format }}" datetime="{{ post.date | date: date_format }}" itemprop="datePublished">{{ post.date | date: date_format }}
+        </time>
+      </div>
+    <h3 class="post-title" itemprop="name"><a class="post-title-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+  <div class="post-content" id="post-content" itemprop="postContent">
+    {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+    {%- endif -%}
+        <a href="{{ post.url | relative_url }}" class="post-more waves-effect waves-button">Đọc thêm ...</a>
+  </div>
+  <div class="post-footer">
+    <ul class="article-tag-list">
+      <li class="article-tag-list-item">
+        <a class="article-tag-list-link waves-effect waves-button" href="/tags/MIME/">MIME
+        </a>
+      </li>
+      <li class="article-tag-list-item">
+        <a class="article-tag-list-link waves-effect waves-button" href="/tags/Server-Push/">Đẩy máy chủ
+        </a>
+      </li>
+      <li class="article-tag-list-item">
+        <a class="article-tag-list-link waves-effect waves-button" href="/tags/multipart/">nhiều phần
+        </a>
+      </li>
+      <li class="article-tag-list-item">
+        <a class="article-tag-list-link waves-effect waves-button" href="/tags/x-mixed-replace/">x-mix-thay
+        </a>
+      </li>
+    </ul>
+  </div>
+    </article>
+  </li>
+      {%- endfor -%}
+</ul>
+<!--hết mới nè-->
+    <!--cũ mặc định <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
       <li>
@@ -36,7 +78,7 @@ layout: default
         {%- endif -%}
       </li>
       {%- endfor -%}
-    </ul>
+    </ul>-->
 
     {% if site.paginate %}
       <div class="pager">

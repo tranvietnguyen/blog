@@ -1,14 +1,6 @@
 ---
 layout: post
-title: "Làm đàn ông, các bạn cần học cách lắng nghe bản thân, làm bạn với bản thân, và chăm lo cho bản thân, ngay từ bây giờ.
-
-Vì thực tế là, dù ta có lý trí đến đâu, hay đúng hơn là cố gắng lý trí đến đâu, thì nỗi cô đơn, như một con sói hoang đói mồi, sẽ luôn rình rập quanh bạn, theo dõi bạn, và vồ lấy bạn vào những thời khắc bất ngờ nhất.
-
-Và khi ta trở thành con mồi của nỗi cô đơn, cách duy nhất để ta không bị nó xé xác và nuốt vào bụng, là ta phải luôn có một người bạn ĐỒNG HÀNH bên cạnh.
-
-Và còn người bạn ĐỒNG HÀNH nào tốt hơn, là chính BẢN THÂN ta?
-
-Như tôi từng viết cách đây đã lâu, vào những thời khắc đen tối nhất, chó chết nhất, nhục nhã nhất, thấp hèn nhất, yếu đuối nhất, bế tắc nhất, và khốn khổ nhất... thì người duy nhất luôn ở lại bên cạnh ta, chỉ là chính bản thân ta, mà thôi. Vì thế, hãy chăm sóc "bản thân ta" cho tốt vào - ngay từ bây giờ."
+title: "Làm đàn ông, các bạn cần học cách lắng nghe bản thân, làm bạn với bản thân, và chăm lo cho bản thân, ngay từ bây giờ.<br /><br />Vì thực tế là, dù ta có lý trí đến đâu, hay đúng hơn là cố gắng lý trí đến đâu, thì nỗi cô đơn, như một con sói hoang đói mồi, sẽ luôn rình rập quanh bạn, theo dõi bạn, và vồ lấy bạn vào những thời khắc bất ngờ nhất.<br />Và khi ta trở thành con mồi của nỗi cô đơn, cách duy nhất để ta không bị nó xé xác và nuốt vào bụng, là ta phải luôn có một người bạn ĐỒNG HÀNH bên cạnh.<br />Và còn người bạn ĐỒNG HÀNH nào tốt hơn, là chính BẢN THÂN ta?<br /><br />Như tôi từng viết cách đây đã lâu, vào những thời khắc đen tối nhất, chó chết nhất, nhục nhã nhất, thấp hèn nhất, yếu đuối nhất, bế tắc nhất, và khốn khổ nhất... thì người duy nhất luôn ở lại bên cạnh ta, chỉ là chính bản thân ta, mà thôi. Vì thế, hãy chăm sóc "bản thân ta" cho tốt vào - ngay từ bây giờ."
 categories: Đàn ông chân chính
 author:
 - Thầy Giáo Giảng

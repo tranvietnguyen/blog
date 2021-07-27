@@ -5,6 +5,10 @@ categories: tgg
 author:
 - Thầy Giáo Giảng
 - TGG
+tags: 
+- tag 1
+- tag 2
+- tag 3
 meta: "Con người chân chính"
 ---
 

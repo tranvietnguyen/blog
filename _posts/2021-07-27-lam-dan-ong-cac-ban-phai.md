@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Làm đàn ông, các bạn cần học cách lắng nghe bản thân, làm bạn với bản thân, và chăm lo cho bản thân, ngay từ bây giờ."
+title: "Làm đàn ông, các bạn cần học cách lắng nghe bản thân"
 categories: tgg
 author:
 - Thầy Giáo Giảng

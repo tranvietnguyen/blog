@@ -24,11 +24,9 @@
       <div class="scroll-wrap flex-col">
         <ul class="nav">
           <li class="waves-block waves-effect active">
-            <a href="/"><i class="icon icon-lg icon-home"></i>
-              <font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Trang Chủ</font></font>
-            </a>
+            <a href="/"><i class="icon icon-lg icon-home"></i>Trang Chủ</a>
           </li>
-          <li class="waves-block waves-effect"><a href="/archives"><i class="icon icon-lg icon-archives"></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Kho lưu trữ</font></font></a></li><li class="waves-block waves-effect"><a href="/tags"><i class="icon icon-lg icon-tags"></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Thẻ</font></font></a></li><li class="waves-block waves-effect"><a href="https://github.com/yscoder" target="_blank"><i class="icon icon-lg icon-github"></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Github</font></font></a></li><li class="waves-block waves-effect"><a href="http://www.weibo.com/ysweb" target="_blank"><i class="icon icon-lg icon-weibo"></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Weibo</font></font></a>
+          <li class="waves-block waves-effect"><a href="/archives"><i class="icon icon-lg icon-archives"></i>Kho lưu trữ</a></li><li class="waves-block waves-effect"><a href="/tags"><i class="icon icon-lg icon-tags"></i>Thẻ</a></li><li class="waves-block waves-effect"><a href="https://github.com/yscoder" target="_blank"><i class="icon icon-lg icon-github"></i>Github</a></li><li class="waves-block waves-effect"><a href="http://www.weibo.com/ysweb" target="_blank"><i class="icon icon-lg icon-weibo"></i>Weibo</a>
           </li>
         </ul>
       </div>
@@ -41,19 +39,21 @@
   <i class="icon icon-lg icon-navicon"></i>
   </a>
   <div class="flex-col header-title ellipsis">{{ site.title | escape }}</div>
+
   <div class="search-wrap" id="search-wrap">
-  <a class="header-icon waves-effect waves-circle waves-light" href="javascript:;" id="back">
-  <i class="icon icon-lg icon-chevron-left"></i>
-  </a>
-  <input id="key" class="search-input" autocomplete="off" placeholder="Nhập các từ khóa quan tâm">
-  <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="search"><i class="icon icon-lg icon-search"></i></a>
-  <a class="header-icon waves-effect waves-circle waves-light" href="javascript:;" id="search">
-  <i class="icon icon-lg icon-search"></i>
-  </a>
+    <a class="header-icon waves-effect waves-circle waves-light" href="javascript:;" id="back">
+    <i class="icon icon-lg icon-chevron-left"></i>
+    </a>
+    <div class="section" id="b-section-BlogSearch1"><div class="widget BlogSearch" id="BlogSearch1">
+    <form action="/search" class="form-search">
+    <input aria-label="Tìm kiếm blog này" class="search-input form-search-input" id="key" name="q" placeholder="Tìm kiếm blog này" type="text">
+    </form>
+    </div></div>
+    <a class="header-icon waves-effect waves-circle waves-light" href="javascript:;" id="search">
+    <i class="icon icon-lg icon-search"></i>
+    </a>
   </div>
-  <a class="header-icon waves-effect waves-circle waves-light" href="javascript:;" id="menuShare"><i class="icon icon-lg icon-share-alt"></i></a>
-  <a class="header-icon waves-effect waves-circle waves-light" href="/" id="home"><i class="icon icon-lg icon-home"></i></a>
-  </div>
+
   </header>
 
   <header class="content-header index-header">

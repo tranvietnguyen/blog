@@ -34,12 +34,12 @@ layout: default
     <h3 class="post-title" itemprop="name"><a class="post-title-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
   <div class="post-content" id="post-content" itemprop="postContent">
     {%- if site.show_excerpts -%}
-          {{ post.excerpt }} {%- endif -%}<a href="{{ post.url | relative_url }}" class="post-more waves-effect waves-button">Đọc thêm ...</a>
+          {{ post.excerpt }}<a href="{{ post.url | relative_url }}" class="post-more waves-effect waves-button">Đọc thêm ...</a> {%- endif -%}
   </div>
-  {%- if page.author -%}
+  {%- if post.author -%}
   <ul class="article-tag-list">
     {% for author in page.author %}
-    <li class="article-tag-list-item"><a class="article-tag-list-link waves-effect waves-button" href="/tags/{{ author }}">{{ author }}</a></li>
+    <li class="article-tag-list-item"><a class="article-tag-list-link waves-effect waves-button" href="/tags/{{ post.author }}">{{ author }}</a></li>
     {%- if forloop.last == false %} {% endif -%}
     {% endfor %}
   </ul>
@@ -50,7 +50,7 @@ layout: default
     <ul class="article-tag-list">
       {% for author in page.author %}
       <li class="article-tag-list-item">
-        <a class="article-tag-list-link waves-effect waves-button" href="/tags/{{ author }}">{{ author }}</a>
+        <a class="article-tag-list-link waves-effect waves-button" href="/tags/{{ author }}">{{ post.author }}</a>
       </li>{%- if forloop.last == false %} {% endif -%}
       {% endfor %}
     </ul>

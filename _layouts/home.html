@@ -38,7 +38,7 @@ layout: default
   </div>
   {%- if post.author -%}
   <ul class="article-tag-list">
-    {% for author in page.author %}
+    {% for author in post.author %}
     <li class="article-tag-list-item"><a class="article-tag-list-link waves-effect waves-button" href="/tags/{{ post.author }}">{{ author }}</a></li>
     {%- if forloop.last == false %} {% endif -%}
     {% endfor %}

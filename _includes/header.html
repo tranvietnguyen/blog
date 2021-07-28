@@ -61,8 +61,12 @@
 
   <header class="content-header index-header">
     <div class="container fade-scale in">
+      {%- if page.title -%}
+      <h1 class="title" style="display: none;">{{ page.title | escape }}</h1>
+      {% else %}
       <h1 class="title">{{ site.title | escape }}</h1>
       <h5 class="subtitle">Học kỹ năng vượt xe trong các góc cua!</h5>
+      {%- endif -%}
     </div>
   </header>
 

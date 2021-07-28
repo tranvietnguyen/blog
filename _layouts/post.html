@@ -35,7 +35,7 @@ layout: default
         {%- if forloop.last == false %} {% endif -%}
         {% endfor %}
         {% for tag in page.tags %}
-        <li class="article-tag-list-item"><a class="article-tag-list-link waves-effect waves-button" href="/tags/{{ tag | slugify: "latin" }}">{{ tag }} </a></li>
+        <li class="article-tag-list-item"><a class="article-tag-list-link waves-effect waves-button" href="/tags/{{ tag | slugify: "ascii" }}">{{ tag }} </a></li>
         {%- if forloop.last == false %} {% endif -%}
         {% endfor %}
       </ul>

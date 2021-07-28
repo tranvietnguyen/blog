@@ -31,7 +31,7 @@ layout: default
         <time class="post-time" title="{{ post.date | date: date_format }}" datetime="{{ post.date | date: date_format }}" itemprop="datePublished">{{ post.date | date: date_format }}
         </time>
       </div>
-    <h3 class="post-title" itemprop="name"><a class="post-title-link" href="{{ post.url | relative_url }}">{{ post.title | escape }} 000 {{ post.content | markdownify | truncatewords: 40 }}</a></h3>
+    <h3 class="post-title" itemprop="name"><a class="post-title-link" href="{{ post.url | relative_url }}">{{ post.content | markdownify | truncatewords: 40 }}</a></h3>
   <div class="post-content" id="post-content" itemprop="postContent">
     {%- if site.show_excerpts -%}
     {% if post.content contains '<!--excerpt.s-->' %}

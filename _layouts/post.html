@@ -35,7 +35,7 @@ layout: default
         {%- if forloop.last == false %} {% endif -%}
         {% endfor %}
         {% for tag in page.tags %}
-        <li class="article-tag-list-item"><a class="article-tag-list-link waves-effect waves-button" href="/tags/{{ tag | slugify | replace: 'á', 'a' | replace: 'à', 'a' | replace: 'ạ', 'a' | replace: 'ã', 'a' | replace: 'ả', 'a' | replace: 'ă', 'a' | replace: 'ắ', 'a' | replace: 'ằ', 'a' | replace: 'ặ', 'a' | replace: 'ẵ', 'a' | replace: 'ẳ', 'a' | replace: 'â', 'a' | replace: 'ấ', 'a' | replace: 'ầ', 'a' | replace: 'ậ', 'a' | replace: 'ẫ', 'a' | replace: 'ẩ', 'a' | replace: 'đ', 'd' | replace: 'é', 'e' | replace: 'è', 'e' | replace: 'ẹ', 'e' | replace: 'ẽ', 'e' | replace: 'ẻ', 'e' | replace: 'ê', 'e' | replace: 'ờ', 'o' | replace: 'í', 'i' | replace: 'ệ', 'e' | }}">{{ tag }} </a></li>
+        <li class="article-tag-list-item"><a class="article-tag-list-link waves-effect waves-button" href="/tags/{{ tag | slugify | replace: 'á', 'a' | replace: 'à', 'a' | replace: 'ạ', 'a' | replace: 'ã', 'a' | replace: 'ả', 'a' | replace: 'ă', 'a' | replace: 'ắ', 'a' | replace: 'ằ', 'a' | replace: 'ặ', 'a' | replace: 'ẵ', 'a' | replace: 'ẳ', 'a' | replace: 'â', 'a' | replace: 'ấ', 'a' | replace: 'ầ', 'a' | replace: 'ậ', 'a' | replace: 'ẫ', 'a' | replace: 'ẩ', 'a' | replace: 'đd', 'd' | replace: 'é', 'e' | replace: 'è', 'e' | replace: 'ẹ', 'e' | replace: 'ẽ', 'e' | replace: 'ẻ', 'e' | replace: 'ê', 'e' | replace: 'ờ', 'o' | replace: 'í', 'i' | replace: 'ệ', 'e' | }}">{{ tag }} </a></li>
         {%- if forloop.last == false %} {% endif -%}
         {% endfor %}
       </ul>

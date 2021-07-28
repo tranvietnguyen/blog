@@ -23,5 +23,5 @@ Như tôi từng viết cách đây đã lâu, vào những thời khắc đen t
 <img src="https://1.bp.blogspot.com/-HTxx5UPy_pM/YPtc2GcFDBI/AAAAAAAAAAc/uswLCWhRv843RlMPTDi_BElv2r8l5lAJwCNcBGAsYHQ/s0/164877838_559221645045073_5645847295350259170_n%255B1%255D.jpg" />
 
 Các em gái nếu luyện được skill này cũng tốt, nhưng không luyện được cũng không sao. Tôi cũng không trông mong các em luyện được skill này. Lý do? Các em (đa phần, không phải tất cả) có muốn cũng không bao giờ có cơ hội cô đơn được, đặc biệt là thứ cô đơn chỉ bọn đàn ông mới có. Đơn giản vì quanh các em luôn có đầy vệ tinh sẵn sàng nhảy vào lấp mọi chỗ trống trong tinh thần lẫn trên cơ thể các em.
-<!--more-->
+<!--more--> <!-- excerpt-start -->
 Nói cách khác, hãy đầu tư cho bản thân, thay vì đầu tư cho gái, nghe chưa lũ ngu, à quên, ghê ghê?

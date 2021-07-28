@@ -5,7 +5,7 @@ categories: tgg
 author:
 - Thầy Giáo Giảng
 - TGG
-tags: [Con người chân chính, Chân Thiện Mỹ, Đàn ông chÂn chính]
+tags: [Con người chân chính, Chân Thiện Mỹ, Đàn ông chân chính]
 meta: "Con người chân chính"
 ---
 

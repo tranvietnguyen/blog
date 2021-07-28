@@ -33,11 +33,14 @@ layout: default
       </div>
     <h3 class="post-title" itemprop="name"><a class="post-title-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
   <div class="post-content" id="post-content" itemprop="postContent">
+    {%- if site.show_excerpts -%}
     {% assign excerptParts = post.content | split: "<!-- excerpt-start -->" %}
     {{ excerptParts[1] | strip_newlines | truncatewords: 70 }}
+    {{ post.content | markdownify | strip_html | truncatewords: 50 }}
+    {%- endif -%}
     
-    {%- if site.show_excerpts -%}
-          {{ post.excerpt }} {%- endif -%}
+    <!--{%- if site.show_excerpts -%}
+          {{ post.excerpt }} {%- endif -%}-->
   </div>
   {%- if post.author -%}
   <div class="post-footer">

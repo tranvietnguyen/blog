@@ -34,7 +34,7 @@ layout: default
     <h3 class="post-title" itemprop="name"><a class="post-title-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
   <div class="post-content" id="post-content" itemprop="postContent">
     {%- if site.show_excerpts -%}
-          {{ post.excerpt }}<a href="{{ post.url | relative_url }}" class="post-more waves-effect waves-button">Đọc thêm ...</a> {%- endif -%}
+          {{ post.excerpt | replace: '</p>', '<a href="{{ post.url | relative_url }}" class="post-more waves-effect waves-button">Đọc thêm ...</a></p>' }} {%- endif -%}
   </div>
   {%- if post.author -%}
   <div class="post-footer">

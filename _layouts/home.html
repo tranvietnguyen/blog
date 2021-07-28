@@ -36,7 +36,7 @@ layout: default
     {%- if site.show_excerpts -%}
     {% if post.content contains '<!--excerpt.s-->' %}
     {% assign excerptParts = post.content | split: "<!--excerpt.s-->" %}
-    {{ excerptParts[1] | strip_newlines | markdownify | truncatewords: 50 }}
+    {{ excerptParts[1] | strip_newlines | markdownify | truncatewords: 50 }} 000 {{ post.content | <!--excerpt.s--> | strip_html | truncatewords: 50 }}
     {% else %}
     {{ post.content | strip_html | truncatewords: 50 }}
     {%- endif -%}

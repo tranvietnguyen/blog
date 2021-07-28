@@ -31,7 +31,11 @@ layout: default
     {%- if page.author -%}
       <ul class="article-tag-list">
         {% for author in page.author %}
-        <li class="article-tag-list-item"><a class="article-tag-list-link waves-effect waves-button" href="/tags/{{ author }}">{{ author }} {{ tags }}</a></li>
+        <li class="article-tag-list-item"><a class="article-tag-list-link waves-effect waves-button" href="/tags/{{ author }}">{{ author }}</a></li>
+        {%- if forloop.last == false %} {% endif -%}
+        {% endfor %}
+        {% for tags in page.tags %}
+        <li class="article-tag-list-item"><a class="article-tag-list-link waves-effect waves-button" href="/tags/{{ tags }}">{{ tags }}</a></li>
         {%- if forloop.last == false %} {% endif -%}
         {% endfor %}
       </ul>

@@ -5,15 +5,13 @@ layout: default
   <div class="post-card">
     <h1 class="post-card-title" style="display: none;">{{ page.title | escape }}</h1>
     <div class="post-content" id="post-content" itemprop="postContent">
-      <p>
-        {{ page.excerpt }}
-        <div class="post-meta">
-          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-          <time class="post-time" title="{{ page.date | date_to_xmlschema }}" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date_to_xmlschema }}</time>
+    {{ page.excerpt }}
+      <div class="post-meta">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <time class="post-time" title="{{ page.date | date_to_xmlschema }}" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date_to_xmlschema }}</time>
         </div>
     {% assign post_cm = content | split: "<!--more-->" %}
     {{ post_cm[1] }}
-      </p>
     </div>
     <blockquote class="post-copyright">
       <div class="content">

@@ -4,14 +4,14 @@ layout: default
 <article id="post-multipart-x-mixed-replace" class="post-article article-type-post fade in" itemprop="blogPost">
   <div class="post-card">
     <h1 class="post-card-title" style="display: none;">{{ page.title | escape }}</h1>
-    <div class="post-meta">{{ post.excerpt }}
+    <div class="post-meta">{{ page.excerpt }}
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       <time class="post-time" title="{{ page.date | date_to_xmlschema }}" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date_to_xmlschema }}</time>
     </div>
     <div class="post-content" id="post-content" itemprop="postContent">
       <p>
         
-    {% assign post_cm = post.content | split: "<!--more-->" %}
+    {% assign post_cm = content | split: "<!--more-->" %}
     {{ post_cm[1] }}
         {{ content }}
       </p>

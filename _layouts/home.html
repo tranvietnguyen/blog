@@ -33,6 +33,24 @@ layout: default
       </div>
     <h3 class="post-title" itemprop="name"><a class="post-title-link" href="{{ post.url | relative_url }}">{{ post.content | markdownify | truncatewords: 40 | replace: '<p>', '' | replace: '</p>', '<br /><br />' }}</a></h3>
   <div class="post-content" id="post-content" itemprop="postContent">
+   
+
+      {% assign foundImage = 0 %}
+      {% assign images = post.content | split:"<img " %}
+      {% for first_image in images %}
+        {% if first_image contains 'src=' %}
+            {% if foundImage == 0 %}
+                {% assign src_image = first_image | split:"/>" | first %}
+                <img {{ src_image }} />
+                {% assign foundImage = 1 %}
+            {% endif %}
+        {% endif %}
+      {% endfor %}
+
+
+
+
+
     {%- if site.show_excerpts -%}
     {% if post.content contains '<!--excerpt.s-->' %}
     {% assign excerptParts = post.content | split: "<!--excerpt.s-->" %}

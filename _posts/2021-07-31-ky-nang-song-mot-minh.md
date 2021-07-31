@@ -19,7 +19,9 @@ Nên tôi mới hay khuyên các bạn trai trẻ phải ra ở riêng, và ph�
 Và trong cái thời đại mà người ta đang bị bủa vây bởi mạng xã hội, báo chí lá cải, tin tức rác 24/24 như hiện nay... việc rèn luyện kỹ năng SỐNG MỘT MÌNH càng quan trọng hơn bao giờ hết. Ý tôi là thật sự "một mình", chứ hở chút là vào Insta đọc story của "crush" hoặc vào Phây thả vài dòng còm nhảm nịnh sếp, thì vẫn không phải "một mình".
 
 <img src="https://1.bp.blogspot.com/-uzzAdfk7hfE/YPrqjHdL2hI/AAAAAAAAAAU/vk6HvesvmRo6rwGXYLcDrChqigvebQx5wCNcBGAsYHQ/s0/174807005_625437805090123_4967098819449453604_n%255B1%255D.jpg" /><!--more-->
-<div class="post-copyright"><div class="content"><!--excerpt.s-->Bọn Tây phân biệt rất rạch ròi giữa "Solitude" (Cô độc) và "Loneliness" (Cô đơn).</div></div>
+<div class="post-copyright"><div class="content">
+<!--excerpt.s-->Bọn Tây phân biệt rất rạch ròi giữa "Solitude" (Cô độc) và "Loneliness" (Cô đơn).
+</div></div>
 <div class="post-copyright"><div class="content">Người sống solitude đơn giản vì họ muốn vậy, còn kẻ sống trong trạng thái loneliness thì không.</div></div>
 <div class="post-copyright"><div class="content">Khi bạn ở trong trạng thái loneliness (thay vì solitude), thì bạn sẽ luôn thấp thỏm, dày vò và bất hạnh, và năng lượng bạn luôn "hướng" ra bên ngoài đơn giản vì bạn cô đơn, và luôn tìm đến những nguồn năng lượng khác ở bên ngoài với hy vọng khỏa lấp nỗi cô đơn đó.</div></div>
 <div class="post-copyright"><div class="content">Và bạn loneliness không phải vì bạn thiếu bạn, thiếu người tình, hay thiếu bất cứ mối quan hệ nào bên ngoài, mà chỉ đơn giản bạn chưa có một mối quan hệ đủ tốt với chính bản thể nội tâm của chính mình. Hay nói đơn giản là bạn cô đơn vì bạn chưa học cách "làm bạn" với chính mình.</div></div>

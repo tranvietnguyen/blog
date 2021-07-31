@@ -49,7 +49,7 @@ layout: default
     {% endfor %}
 
     {% if post.content contains '<!--excerpt.s-->' %}
-    {% assign excerptParts = post.content | split: "<!--excerpt.s-->" %}
+    {% assign excerptParts = post.content | strip_html | split: "<!--excerpt.s-->" %}
     {{ excerptParts[1] | markdownify |  strip_html | truncatewords: 30 }}
     {% else %}
     {{ post.content | markdownify | strip_html | truncatewords: 30 }}

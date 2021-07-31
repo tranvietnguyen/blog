@@ -18,7 +18,8 @@ Nên tôi mới hay khuyên các bạn trai trẻ phải ra ở riêng, và ph�
 
 Và trong cái thời đại mà người ta đang bị bủa vây bởi mạng xã hội, báo chí lá cải, tin tức rác 24/24 như hiện nay... việc rèn luyện kỹ năng SỐNG MỘT MÌNH càng quan trọng hơn bao giờ hết. Ý tôi là thật sự "một mình", chứ hở chút là vào Insta đọc story của "crush" hoặc vào Phây thả vài dòng còm nhảm nịnh sếp, thì vẫn không phải "một mình".
 
-<img src="https://1.bp.blogspot.com/-uzzAdfk7hfE/YPrqjHdL2hI/AAAAAAAAAAU/vk6HvesvmRo6rwGXYLcDrChqigvebQx5wCNcBGAsYHQ/s0/174807005_625437805090123_4967098819449453604_n%255B1%255D.jpg" /><!--more--><!--excerpt.s--><div class="post-copyright"><div class="content">
+<img src="https://1.bp.blogspot.com/-uzzAdfk7hfE/YPrqjHdL2hI/AAAAAAAAAAU/vk6HvesvmRo6rwGXYLcDrChqigvebQx5wCNcBGAsYHQ/s0/174807005_625437805090123_4967098819449453604_n%255B1%255D.jpg" /><!--more--><!--excerpt.s-->
+<div class="post-copyright"><div class="content">
 Bọn Tây phân biệt rất rạch ròi giữa "Solitude" (Cô độc) và "Loneliness" (Cô đơn).
 </div></div>
 <div class="post-copyright"><div class="content">Người sống solitude đơn giản vì họ muốn vậy, còn kẻ sống trong trạng thái loneliness thì không.</div></div>

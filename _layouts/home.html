@@ -50,7 +50,7 @@ layout: default
 
     {% if post.content contains '<!--excerpt.s-->' %}
     {% assign excerptParts = post.content | split: "<!--excerpt.s-->" %}
-    {% assign filter_html = excerptParts[0] | strip_html %}
+    {% assign filter_html = excerptParts[1] | strip_html %}
     {{ excerptParts[1] | markdownify |  strip_html | truncatewords: 30 }}
     {{ filter_html }}
     {% else %}

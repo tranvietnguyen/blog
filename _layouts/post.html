@@ -45,7 +45,9 @@ layout: default
           <li><a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text={{ page.title | escape }}&amp;url={{ page.url | relative_url }}&amp;via=https://tranvietnguyen.github.io" data-title=" Twitter"><i class="icon icon-twitter"></i></a></li>
           <li><a class="google share-sns" target="_blank" href="https://plus.google.com/share?url={{ page.url | relative_url }}" data-title=" Google+"><i class="icon icon-google-plus"></i></a></li>
         </ul>
-      </div><a href="javascript:;" id="shareFab" class="page-share-fab waves-effect waves-circle"><i class="icon icon-share-alt icon-lg"></i></a>
+      </div><a href="javascript:;" id="shareFab" class="page-share-fab waves-effect waves-circle"><i class="icon icon-share-alt icon-lg"></i>
+        <div class="waves-ripple waves-rippling" data-scale="scale(1.26)"></div>
+      </a>
     </div>
   </div>
   {%- if site.disqus.shortname -%}

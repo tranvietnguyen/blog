@@ -9,9 +9,9 @@ meta: "Sống có nghĩa"
 ---
 Đừng lãng phí khí lực.
 
-Năng lượng trong con người ta chia làm hai loại: 
-1/ Năng lượng thể chất. 
-2/ Năng lượng tinh thần.
+Năng lượng trong con người ta chia làm hai loại:
+1. Năng lượng thể chất.
+2. Năng lượng tinh thần.
 
 Bài hôm nay tôi nói về năng lượng tinh thần, hay còn gọi là khí lực (chakra). Khí lực là một dạng năng lượng vô hình, nó chảy khắp cơ thể ta như huyết mạch, và nó ảnh hưởng đến toàn bộ cơ thể ta đến từng sợi cơ, từng thớ thịt, và từng tế bào.
 

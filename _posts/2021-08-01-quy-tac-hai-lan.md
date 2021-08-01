@@ -8,9 +8,11 @@ tags: [Con người chân chính, Chân Thiện Mỹ, Đàn ông chân chính, D
 meta: "không ai có thể ép ai làm cái gì"
 ---
 Tôi có một quy tắc vàng mà từ khi áp dụng vào cuộc sống của mình, đời tôi vui vẻ nhẹ nhàng bớt stress và hạnh phúc hơn rất nhiều:
+
 Đó là, khi tôi đưa ra lời mời cho bất cứ đối tượng nào, nếu họ từ chối (dưới bất cứ hình thức nào) đến lần thứ hai, tôi sẽ NGƯNG làm phiền họ mãi mãi (ít nhất cho đến khi nào họ chủ động liên lạc lại).
 
-Suy cho cùng, thì con người ta sẽ luôn làm điều họ MUỐN, và sẽ luôn không làm điều họ KHÔNG MUỐN. Đơn giản vậy thôi. 
+Suy cho cùng, thì con người ta sẽ luôn làm điều họ MUỐN, và sẽ luôn không làm điều họ KHÔNG MUỐN. Đơn giản vậy thôi.
+
 Trên đời, không ai có thể ép ai làm cái gì. Và cũng không ai thật sự nợ ai cái gì. Đơn giản vậy thôi.
 <!--excerpt.s-->
 <div class="post-copyright"><div class="content">Hà Võ: Thứ nhất, chính xác là "hai lần", không phải một lần.<br />

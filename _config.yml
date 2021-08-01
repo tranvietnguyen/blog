@@ -60,3 +60,5 @@ plugins:
  - jekyll-seo-tag
 
 excerpt_separator: <!--more-->
+
+permalink: /:categories/:year:month:day/:title:output_ext

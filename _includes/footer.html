@@ -12,16 +12,17 @@
     <script>var BLOG={ROOT:"/",SHARE:!0,REWARD:!0};</script>
     <script src="https://tranvietnguyen.github.io/blog/script/main.min.js?v=1.7.2"></script>
     <div class="search-panel" id="search-panel"><ul class="search-result" id="search-result"></ul></div><template id="search-tpl"><li class="item"><a href="{path}" class="waves-block waves-effect"><div class="title ellipsis" title="{title}">{title}</div><div class="flex-row flex-middle"><div class="tags ellipsis">{tags}</div><time class="flex-col time">{date}</time></div></a></li></template><script src="https://tranvietnguyen.github.io/blog/script/search.min.js?v=1.7.2" async></script>
+    
     <script type='text/javascript'>
       //<![CDATA[
-    /* Arlina Design Material Button by http://www.arlinadzgn.com */
+   /* Arlina Design Material Button by http://www.arlinadzgn.com */
 (function($) {
     $(".waves-effect").click(function(e){
         var rippler = $(this);
-        if(rippler.find(".waves-ripple").length === 0) {
-            rippler.append("<span class='waves-ripple waves-light'></span>");
+        if(rippler.find(".teffect").length === 0) {
+            rippler.append("<span class='teffect'></span>");
         }
-        var teffect = rippler.find(".waves-ripple");
+        var teffect = rippler.find(".teffect");
         teffect.removeClass("animate");
         if(!teffect.height() && !teffect.width())
         {

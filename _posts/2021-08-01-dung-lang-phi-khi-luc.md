@@ -33,14 +33,14 @@ Cũng cần lưu ý, việc rèn luyện Thể Chất & Khí Lực phải luôn 
 
 Sách recommend nên đọc: "Cái dũng của thánh nhân" (Thu Giang - Nguyễn Duy Cần).
 <!--excerpt.s-->
-<div class="post-copyright"><div class="content">Đối với các bạn nam trẻ, triệu chứng rõ rệt nhất của sự không làm chủ cảm xúc (và từ đó làm tiêu tán khí lực một cách hoang phí) là combo xem sex + thủ dâm.
-Vì không làm chủ cảm xúc -> xem sex + thủ dâm -> cơ thể hao tổn tinh khí -> lãng phí KHÍ LỰC -> tiếp tục không làm chủ cảm xúc.
+<div class="post-copyright"><div class="content">Đối với các bạn nam trẻ, triệu chứng rõ rệt nhất của sự không làm chủ cảm xúc (và từ đó làm tiêu tán khí lực một cách hoang phí) là combo xem sex + thủ dâm.<br />
+Vì không làm chủ cảm xúc -> xem sex + thủ dâm -> cơ thể hao tổn tinh khí -> lãng phí KHÍ LỰC -> tiếp tục không làm chủ cảm xúc.<br />
 Tôi nói đến đây thôi, tự các bạn tìm lời giải.</div></div>
-<div class="post-copyright"><div class="content">Một triệu chứng nổi bật nữa của sự không làm chủ cảm xúc, là thói nói nhiều. Ở những người này, nhu cầu nói và chia sẻ tâm tình của họ, dù là bằng mồm ở ngoài đời hay bằng bàn phím trên mạng, là vô cùng lớn.
-Đó là lý do tôi bảo với thằng đàn ông, một trong những phẩm chất cao quý nhất là NGẬM ĐẮNG NUỐT CAY. Câm mồm lại. Đừng nói bất cứ gì với bất cứ ai.
+<div class="post-copyright"><div class="content">Một triệu chứng nổi bật nữa của sự không làm chủ cảm xúc, là thói nói nhiều. Ở những người này, nhu cầu nói và chia sẻ tâm tình của họ, dù là bằng mồm ở ngoài đời hay bằng bàn phím trên mạng, là vô cùng lớn.<br />
+Đó là lý do tôi bảo với thằng đàn ông, một trong những phẩm chất cao quý nhất là NGẬM ĐẮNG NUỐT CAY. Câm mồm lại. Đừng nói bất cứ gì với bất cứ ai.<br />
 Và mỗi khi ta nói ra gì đó, là mỗi lần khí lực ta hao tổn đi một ít.</div></div>
 <div class="post-copyright"><div class="content">Các bạn chưa có điều kiện tài chính cứ đọc e-book bản free để thu nạp kiến thức. Nhưng tôi hy vọng khi có điều kiện, các bạn nên mua lấy cho mình bản cứng của tất cả những cuốn e-book đó, vì đó là cách duy nhất để giúp các NXB có lợi nhuận để tiếp tục hoạt động cũng như trả tiền bản quyền/nhuận bút cho các tác giả & dịch giả.</div></div>
-<div class="post-copyright"><div class="content">Thêm cái nữa cần lưu ý trong việc làm chủ cảm xúc, là khi vui, đừng cười toáng lên, khi buồn, đừng khóc rống lên, khi giận, đừng đỏ mặt bùng nộ... các bạn cần luyện làm sao, mà mặt lúc nào cũng lạnh lùng bình thản, người đối diện không sao đoán biết bạn đang ở trạng thái cảm xúc nào.
+<div class="post-copyright"><div class="content">Thêm cái nữa cần lưu ý trong việc làm chủ cảm xúc, là khi vui, đừng cười toáng lên, khi buồn, đừng khóc rống lên, khi giận, đừng đỏ mặt bùng nộ... các bạn cần luyện làm sao, mà mặt lúc nào cũng lạnh lùng bình thản, người đối diện không sao đoán biết bạn đang ở trạng thái cảm xúc nào.<br />
 Cứ luyện như vậy riết, bạn sẽ làm chủ được cảm xúc, thay vì để cảm xúc làm chủ mình.</div></div>
-<div class="post-copyright"><div class="content">Ở thời đại này, tuy con người đã no ấm an toàn và sung sướng hơn rất nhiều so với tổ tiên, nhưng cũng chưa bao giờ mà Khí Lực con người bị hao phí một cách trầm trọng đến thế.
+<div class="post-copyright"><div class="content">Ở thời đại này, tuy con người đã no ấm an toàn và sung sướng hơn rất nhiều so với tổ tiên, nhưng cũng chưa bao giờ mà Khí Lực con người bị hao phí một cách trầm trọng đến thế.<br />
 Đi đâu cũng thấy quảng cáo đủ loại sản phẩm, mở báo lên toàn chuyện showbiz đời tư hàng hiệu show hàng, lên mạng thì nếu không cãi nhau trong forum này thì cũng đi chửi lộn trong nhóm FB nọ. Còn nếu không còn gì để làm, thì hàng tỉ video trong news feed của FB/Insta cũng sẵn sàng giúp não bạn được mê muội trong cảm giác yên ấm thư giãn giả tạo.</div></div>

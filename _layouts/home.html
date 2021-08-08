@@ -32,7 +32,9 @@ layout: default
         </time>
       </div>
     <h3 class="post-title" itemprop="name">
-      <a class="post-title-link" href="{{ post.url | relative_url }}">{{ post.content | markdownify | truncatewords: 75 | replace: '<p>', '' | replace: '</p>', '<br /><br />' }}<span class="post-more waves-effect waves-button" style="font-weight: bold;">Xem thêm</span></a>
+      <a class="post-title-link" href="{{ post.url | relative_url }}">{{ post.content | markdownify | truncatewords: 75 | replace: '<p>', '' | replace: '</p>', '<br /><br />' }}
+        <span class="post-more waves-effect waves-button" style="font-weight: bold;">Xem thêm</span>
+      </a>
     </h3>
   <div class="post-content" id="post-content" itemprop="postContent">
 

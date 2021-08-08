@@ -24,9 +24,9 @@ layout: default
 
 <ul class="post-list">
   {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      {%- for post in posts -%}
 
-
-  {% assign 7day = "Hai|february|march|april|may|june|july" | split: "|" %}
+      {% assign 7day = "Hai|february|march|april|may|june|july" | split: "|" %}
 {% assign m = post.date | date: "%-m" | minus: 1 %}
 {% assign thu = 7day[m] %}
 {% assign day = post.date | date: "%d" %}
@@ -34,7 +34,7 @@ layout: default
 {% assign year = post.date | date: "%Y" %}
 <span class="post-meta">{% t thu %} {{day}} {{month}} {{year}}</span>
 
-      {%- for post in posts -%}
+
   <li class="post-list-item fade in">
     <article class="article-card article-type-post" itemprop="blogPost">
       <div class="post-meta">

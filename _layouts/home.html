@@ -46,7 +46,7 @@ layout: default
       {% if src_image contains 'src=' %}
           {% if foundImage == 0 %}
               {% assign first_image = src_image | split:"/>" | first %}
-              <div style="text-align: center;"><img {{ first_image }} /></div>
+              <div style="text-align: center;"><a href="{{ post.url | relative_url }}"><img {{ first_image }} /></a></div>
               {% assign foundImage = 1 %}
           {% endif %}
       {% endif %}

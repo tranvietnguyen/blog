@@ -29,19 +29,15 @@ layout: default
       {% assign 7day = "Hai|february|march|april|may|june|july" | split: "|" %}
 {% assign m = post.date | date: "%-m" | minus: 1 %}
 {% assign thu = 7day[m] %}
-{% assign day = post.date | date: "%d" %}
-{% assign month = post.date | date: "%b" %}
-{% assign year = post.date | date: "%Y" %}
 <span class="post-meta">{% t thu %} {{day}} {{month}} {{year}}</span>
 
 
   <li class="post-list-item fade in">
     <article class="article-card article-type-post" itemprop="blogPost">
       <div class="post-meta">
-        <time class="post-time" title="{{ post.date | date: date_format }}" datetime="{{ post.date | date: date_format }}" itemprop="datePublished">aaa{% t thu %} {{day}} {{month}} {{year}}
-        </time>
-        {% assign m = page.date | date: “%a” %}
-{% case m %}
+        <time class="post-time" title="{{ post.date | date: date_format }}" datetime="{{ post.date | date: date_format }}" itemprop="datePublished">{{ post.date | date: date_format }} aaa {% t thu %}</time>
+        {% assign mda = post.date | date: "%a" %}
+{% case mda %}
 {% when ‘Wed’ %}Januar
 {% when ‘Thu’ %}Februar
 {% when ‘3’ %}März

@@ -3221,7 +3221,7 @@ pre .javascript .function {
   position: relative;
   display: inline-block;
 }
-.post-title-link::after {
+/* .post-title-link::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -3234,7 +3234,7 @@ pre .javascript .function {
   transform: scaleX(0);
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
-}
+}*/
 .post-title-link:hover {
   text-decoration: none;
 }

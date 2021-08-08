@@ -31,8 +31,8 @@ layout: default
         <time class="post-time" title="{{ post.date | date: date_format }}" datetime="{{ post.date | date: date_format }}" itemprop="datePublished">{{ post.date | date: date_format }}
         </time>
       </div>
-    <h3 class="post-title" itemprop="name"><a class="post-title-link" href="{{ post.url | relative_url }}">{{ post.content | markdownify | truncatewords: 75 | replace: '<p>', '' | replace: '</p>', '<br /><br />' }}</a>
-      <a href="{{ post.url | relative_url }}" class="post-more waves-effect waves-button" style="font-weight: bold;">Xem thêm</a>
+    <h3 class="post-title" itemprop="name">
+      <a class="post-title-link" href="{{ post.url | relative_url }}">{{ post.content | markdownify | truncatewords: 75 | replace: '<p>', '' | replace: '</p>', '<br /><br />' }}<span class="post-more waves-effect waves-button" style="font-weight: bold;">Xem thêm</span></a>
     </h3>
   <div class="post-content" id="post-content" itemprop="postContent">
 

@@ -26,9 +26,9 @@ layout: default
   {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
 
 
-  {% assign m = post.date | date: "%-m" %}
+  {% assign mccc = post.date | date: "%a" %}
 {{ page.date | date: "%a" }}
-{% case m %}
+{% case mccc %}
   {% when 'Wed' %}Thứ Tư
   {% when '2' %}Februar
   {% when '3' %}März
@@ -42,13 +42,13 @@ layout: default
   {% when '11' %}November
   {% when '12' %}Dezember
 {% endcase %}
-{{ post.date | date: "%Y" }}
+{{ post.date | date: "%a" }}
 
       {%- for post in posts -%}
   <li class="post-list-item fade in">
     <article class="article-card article-type-post" itemprop="blogPost">
       <div class="post-meta">
-        <time class="post-time" title="{{ post.date | date: date_format }}" datetime="{{ post.date | date: date_format }}" itemprop="datePublished">{{ m | date: date_format }}
+        <time class="post-time" title="{{ post.date | date: date_format }}" datetime="{{ post.date | date: date_format }}" itemprop="datePublished">{{ mccc | date: "%a" }}
         </time>
       </div>
     <h3 class="post-title" itemprop="name">

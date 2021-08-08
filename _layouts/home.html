@@ -24,11 +24,31 @@ layout: default
 
 <ul class="post-list">
   {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+
+
+  {% assign m = post.date | date: "%-m" %}
+{{ page.date | date: "%a" }}
+{% case m %}
+  {% when 'Wed' %}Thứ Tư
+  {% when '2' %}Februar
+  {% when '3' %}März
+  {% when '4' %}April
+  {% when '5' %}Mai
+  {% when '6' %}Juni
+  {% when '7' %}Juli
+  {% when '8' %}August
+  {% when '9' %}September
+  {% when '10' %}Oktober
+  {% when '11' %}November
+  {% when '12' %}Dezember
+{% endcase %}
+{{ post.date | date: "%Y" }}
+
       {%- for post in posts -%}
   <li class="post-list-item fade in">
     <article class="article-card article-type-post" itemprop="blogPost">
       <div class="post-meta">
-        <time class="post-time" title="{{ post.date | date: date_format }}" datetime="{{ post.date | date: date_format }}" itemprop="datePublished">{{ post.date | date: date_format }}
+        <time class="post-time" title="{{ post.date | date: date_format }}" datetime="{{ post.date | date: date_format }}" itemprop="datePublished">{{ m | date: date_format }}
         </time>
       </div>
     <h3 class="post-title" itemprop="name">

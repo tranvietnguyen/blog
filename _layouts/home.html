@@ -38,8 +38,18 @@ layout: default
   <li class="post-list-item fade in">
     <article class="article-card article-type-post" itemprop="blogPost">
       <div class="post-meta">
-        <time class="post-time" title="{{ post.date | date: date_format }}" datetime="{{ post.date | date: date_format }}" itemprop="datePublished">{% t thu %} {{day}} {{month}} {{year}}
+        <time class="post-time" title="{{ post.date | date: date_format }}" datetime="{{ post.date | date: date_format }}" itemprop="datePublished">aaa{% t thu %} {{day}} {{month}} {{year}}
         </time>
+        {% assign m = page.date | date: “%a” %}
+{% case m %}
+{% when ‘Wed’ %}Januar
+{% when ‘Thu’ %}Februar
+{% when ‘3’ %}März
+{% when ‘4’ %}April
+{% when ‘5’ %}Mai
+{% when ‘6’ %}Juni
+{% when ‘7’ %}Juli
+{% endcase %}
       </div>
     <h3 class="post-title" itemprop="name">
       <a class="post-title-link" href="{{ post.url | relative_url }}">{{ post.content | markdownify | truncatewords: 75 | replace: '<p>', '' | replace: '</p>', '<br /><br />' }}

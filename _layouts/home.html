@@ -25,27 +25,10 @@ layout: default
 <ul class="post-list">
   {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
-
-      {% assign 7day = "Hai|february|march|april|may|june|july" | split: "|" %}
-{% assign m = post.date | date: "%-m" | minus: 1 %}
-{% assign thu = 7day[m] %}
-<span class="post-meta">{% t thu %} {{day}} {{month}} {{year}}</span>
-
-
   <li class="post-list-item fade in">
     <article class="article-card article-type-post" itemprop="blogPost">
       <div class="post-meta">
         <time class="post-time" title="{{ post.date | date: date_format }}" datetime="{{ post.date | date: date_format }}" itemprop="datePublished">{{ post.date | date: date_format }} aaa {% t thu %}</time>
-        {% assign mda = post.date | date: "%a" %}
-{% case mda %}
-{% when ‘Wed’ %}Januar
-{% when ‘Thu’ %}Februar
-{% when ‘3’ %}März
-{% when ‘4’ %}April
-{% when ‘5’ %}Mai
-{% when ‘6’ %}Juni
-{% when ‘7’ %}Juli
-{% endcase %}
       </div>
     <h3 class="post-title" itemprop="name">
       <a class="post-title-link" href="{{ post.url | relative_url }}">{{ post.content | markdownify | truncatewords: 75 | replace: '<p>', '' | replace: '</p>', '<br /><br />' }}

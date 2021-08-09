@@ -9,7 +9,7 @@ layout: default
       {{ post_cm[0] }}
       <div class="post-meta">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <time class="post-time" title="{{ page.date | date_to_xmlschema }}" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date_to_xmlschema }}</time>
+        <time class="post-time" title="{{ page.date | date_to_xmlschema }}" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: date_format }}</time>
         </div>
     {{ post_cm[1] }}
     </div>
@@ -20,7 +20,7 @@ layout: default
         {%- assign mdate = page.modified_date | date_to_xmlschema -%}
         <span class="post-time">Lần cập nhật cuối cùng:<time datetime="{{ mdate }}" itemprop="dateUpdated">{{ now | date: date_format }}</time></span>
         {%- endif -%}-->
-        <span class="post-time">Lần cập nhật cuối cùng:<time datetime="{{ now | date: date_format }}" itemprop="dateUpdated">{{ now | date: date_format }}</time></span>
+        <span class="post-time">Lần cập nhật cuối cùng:<time datetime="{{ now | date: date_format }}" itemprop="dateUpdated">{{ "now" | date: "%Y-%m-%d %H:%M" }}</time></span>
         <br>
         Liên kết gốc: <a href="{{ page.url | relative_url }}" target="_blank" rel="external">{{ page.url | relative_url }}</a>
       </div>

@@ -28,9 +28,9 @@ layout: default
   <li class="post-list-item fade in">
     <article class="article-card article-type-post" itemprop="blogPost">
       <div class="post-meta">
-        <time class="post-time" title="{{ post.date | date: date_format }}" datetime="{{ post.date | date: date_format }}" itemprop="datePublished">{{ post.date | date: date_format }}</time>
+        <time class="post-time" title="{{ post.date | date: date_format }}" datetime="{{ post.date | date: date_format }}" itemprop="datePublished">{{ post.date | date: date_format | replace: 'Wed', 'Thứ Tư' }}</time>
       </div>
-      {% assign m = post.date | date: “%a” %}
+      {% assign m = post.date | date: "%a" %}
 {% case m %}
 {% when 'Wed' %}Januar
 {% when 'Tue' %}Februar

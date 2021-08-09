@@ -14,8 +14,11 @@ Can đảm loại bỏ người không tốt cho bạn.
 Đúng vậy, các bạn cần có can đảm loại bỏ tất cả những ai không đem lại giá trị tích cực cho cuộc sống của bạn, không giúp bạn nâng cao chất lượng cuộc sống của bạn, và chỉ đem lại cho bạn không gì ngoài những năng lượng xấu như căng thẳng, buồn bã, phiền não, bế tắc, và đau khổ.
 
 Những đứa bạn chỉ gọi đến bạn khi nó cần ai đó để tâm sự, mà không bao giờ nó chủ động hỏi han bạn? => LOẠI BỎ.
+
 Những đứa bạn khiến bạn luôn cảm thấy bị lấn át, bị làm cho cảm thấy bản thân ngu ngốc, kém cỏi, và thua thiệt khi ở cạnh? => LOẠI BỎ.
+
 Những người thân loser trong gia đình & họ hàng luôn tìm cách soi mói, đâm chọc, chê bai, và hạ thấp những thành tựu cá nhân của bạn, và luôn hả hê khi thấy bạn thất bại? => LOẠI BỎ.
+
 Những đứa đồng nghiệp không tôn trọng bạn khi luôn kiếm cớ gây sự, cà khịa, kháy đểu bạn? => LOẠI BỎ.
 
 Vân vân và mây mây

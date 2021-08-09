@@ -28,9 +28,7 @@ layout: default
   <li class="post-list-item fade in">
     <article class="article-card article-type-post" itemprop="blogPost">
       <div class="post-meta">
-        <time class="post-time" title="{{ post.date | date: date_format }}" datetime="{{ post.date | date: date_format }}" itemprop="datePublished">
-{% assign 7day = post.date | date: "%a" %}
-{% case 7day %}
+        <time class="post-time" title="{{ post.date | date: date_format }}" datetime="{{ post.date | date: date_format }}" itemprop="datePublished">{% assign 7day = post.date | date: "%a" %}{% case 7day %}
 {% when 'Mon' %}Thứ Hai
 {% when 'Tue' %}Thứ Ba
 {% when 'Wed' %}Thứ Tư
@@ -38,9 +36,7 @@ layout: default
 {% when 'Fri' %}Thứ Sáu
 {% when 'Sat' %}Thứ Bảy
 {% when 'Sun' %}Chủ Nhật
-{% endcase %}
-{{ post.date | date: ", Ngày %d Tháng %m Năm %Y" }}</time>
-      </div>
+{% endcase %}{{ post.date | date: ", ngày %d tháng %m năm %Y" }}</time></div>
 
     <h3 class="post-title" itemprop="name">
       <a class="post-title-link" href="{{ post.url | relative_url }}">{{ post.content | markdownify | truncatewords: 75 | replace: '<p>', '' | replace: '</p>', '<br /><br />' }}

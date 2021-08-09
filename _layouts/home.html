@@ -30,6 +30,15 @@ layout: default
       <div class="post-meta">
         <time class="post-time" title="{{ post.date | date: date_format }}" datetime="{{ post.date | date: date_format }}" itemprop="datePublished">{{ post.date | date: date_format }}</time>
       </div>
+      {% assign m = post.date | date: “%a” %}
+{% case m %}
+{% when 'Wed' %}Januar
+{% when 'Tue' %}Februar
+{% when 'Mon' %}März
+{% when 'Sun' %}April
+{% when 'Fri' %}Mai
+{% when 'Thu' %}Juni
+{% endcase %}
     <h3 class="post-title" itemprop="name">
       <a class="post-title-link" href="{{ post.url | relative_url }}">{{ post.content | markdownify | truncatewords: 75 | replace: '<p>', '' | replace: '</p>', '<br /><br />' }}
         <span class="post-more waves-effect waves-button" style="font-weight: bold;">Xem thêm</span>

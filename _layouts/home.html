@@ -86,54 +86,10 @@ layout: default
   </li>
       {%- endfor -%}
 </ul>
-    {% if site.paginate %}
-    <nav id="page-nav">
-      <div class="inner">
-        {%- if paginator.previous_page %}
-        <a class="page-number waves-effect waves-button" href="{{ paginator.previous_page_path | relative_url }}"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">{{ paginator.previous_page }}</font></font></a>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-        <span class="page-number current waves-effect waves-button">{{ paginator.page }}</span>
-        {%- if paginator.next_page %}
-        <a class="page-number waves-effect waves-button" href="{{ paginator.next_page_path | relative_url }}">{{ paginator.next_page }}</a>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-        </ul>
-      </div>
-    {%- endif %}
-
-
-    {% if paginator.total_pages > 1 %}
-<div class="pagination">
-  {% if paginator.previous_page %}
-  <a class="page-number waves-effect waves-button" href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
-  {% else %}
-    <span>&laquo; Prev</span>
-  {% endif %}
-
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-    <span class="page-number current waves-effect waves-button">{{ page }}, trừ {{ page | minus: 1 }}, cộng {{page | plus: 3}}</span>
-    {% elsif page == 1 %}
-    <a class="page-number waves-effect waves-button" href="{{ '/' | relative_url }}">{{ page }}</a>
-    {% else %}
-    <a class="page-number waves-effect waves-button" href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
-    {% endif %}
-  {% endfor %}
-
-  {% if paginator.next_page %}
-  <a class="page-number waves-effect waves-button" href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
-  {% else %}
-    <span>Next &raquo;</span>
-  {% endif %}
-</div>
-{% endif %}
 
 
 
-###########
+<!--phan trang-->
 
 {% if paginator.total_pages > 1 %}
 <nav id="page-nav">
@@ -191,7 +147,7 @@ layout: default
     {% if paginator.page == paginator.total_pages %}
     <span class="page-number current waves-effect waves-button">{{ paginator.page }}</span>
     {% else %}
-    <a class="page-number waves-effect waves-button" href="{{ paginator.total_pages | relative_url }}/">{{ paginator.total_pages }}</a>
+    <a class="page-number waves-effect waves-button" href="{{ paginator.total_pages | relative_url }}">{{ paginator.total_pages }}</a>
     {% endif %}
 
     {% comment %} Link next page {% endcomment %}

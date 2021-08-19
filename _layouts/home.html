@@ -115,9 +115,9 @@ layout: default
 
   {% for page in (1..paginator.total_pages) %}
     {% if page == paginator.page %}
-    <span class="page-number current waves-effect waves-button">{{ page }}</span>
+    <span class="page-number current waves-effect waves-button">{{ page }} {{ page+1 }} {{ page + 1 }}</span>
     {% elsif page == 1 %}
-      <a href="{{ '/' | relative_url }}">{{ page }}</a>
+    <a class="page-number waves-effect waves-button" href="{{ '/' | relative_url }}">{{ page }}</a>
     {% else %}
     <a class="page-number waves-effect waves-button" href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
     {% endif %}

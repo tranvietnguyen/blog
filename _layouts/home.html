@@ -141,9 +141,9 @@ layout: default
     {% comment %} Link for previous page {% endcomment %}
     {% if paginator.previous_page %}
       {% if paginator.previous_page == 1 %}
-        <a href="{{ '/' | relative_url }}">{{ site.data.ui-text[site.locale].pagination_previous | default: "&laquo; Trang trước" }}</a>
+        <!--Trang dau-->
       {% else %}
-        <a href="{{ paginator.previous_page_path | relative_url }}">{{ site.data.ui-text[site.locale].pagination_previous | default: "&laquo; Trang trước" }}</a>
+      <a class="page-number waves-effect waves-button" href="{{ paginator.previous_page_path | relative_url }}">&laquo; Trang trước</a>
       {% endif %}
     {% else %}
       <!--Trang dau-->
@@ -151,7 +151,7 @@ layout: default
 
     {% comment %} First page {% endcomment %}
     {% if paginator.page == 1 %}
-      <a href="#" class="current">1</a>
+    <span class="page-number current waves-effect waves-button">1</span>
     {% else %}
       <a href="{{ '/' | relative_url }}">1</a>
     {% endif %}
@@ -179,24 +179,24 @@ layout: default
           {% comment %} Distance must be a positive value {% endcomment %}
           {% assign dist = 0 | minus: dist %}
         {% endif %}
-        <a class="page-number waves-effect waves-button" href="{{ base_path }}/page{{ index }}/">{{ index }}</a>
+        <span class="page-number current waves-effect waves-button">{{ index }}</span>
       {% endif %}
     {% endfor %}
 
     {% comment %} Ellipsis for truncated links {% endcomment %}
     {% if pages_to_end > 3 %}
-    <span class="space waves-effect waves-button"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">…</font></font></span>
+    <span class="space waves-effect waves-button">…</span>
     {% endif %}
 
     {% if paginator.page == paginator.total_pages %}
-      <a href="#" class="current">{{ paginator.page }}</a>
+    <span class="page-number current waves-effect waves-button">{{ paginator.page }}</span>
     {% else %}
-    <a class="page-number waves-effect waves-button" href="/{{ paginator.total_pages }}/">{{ paginator.total_pages }}</a>
+    <a class="page-number waves-effect waves-button" href="/{{ paginator.total_pages_path }}/">{{ paginator.total_pages }}</a>
     {% endif %}
 
     {% comment %} Link next page {% endcomment %}
     {% if paginator.next_page %}
-    <a class="page-number waves-effect waves-button" href="/{{ paginator.next_page }}/">Trang tiếp theo &raquo;</a>
+    <a class="page-number waves-effect waves-button" href="{{ paginator.next_page_path | relative_url }}">Trang tiếp theo &raquo;</a>
     {% else %}
       <!--Trang cuoi-->
     {% endif %}

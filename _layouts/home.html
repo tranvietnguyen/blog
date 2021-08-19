@@ -136,13 +136,14 @@ layout: default
 ###########
 
 {% if paginator.total_pages > 1 %}
-<nav class="pagination">
+<nav id="page-nav">
+  <div class="inner">
     {% comment %} Link for previous page {% endcomment %}
     {% if paginator.previous_page %}
       {% if paginator.previous_page == 1 %}
-        <a href="{{ base_path }}/">{{ site.data.ui-text[site.locale].pagination_previous | default: "&laquo; Prev" }}</a>
+        <a href="{{ '/' | relative_url }}">{{ site.data.ui-text[site.locale].pagination_previous | default: "&laquo; Trang trước" }}</a>
       {% else %}
-        <a href="{{ base_path }}/page{{ paginator.previous_page }}/">{{ site.data.ui-text[site.locale].pagination_previous | default: "&laquo; Prev" }}</a>
+        <a href="{{ paginator.previous_page_path | relative_url }}">{{ site.data.ui-text[site.locale].pagination_previous | default: "&laquo; Trang trước" }}</a>
       {% endif %}
     {% else %}
       <a href="#" class="disabled"><span aria-hidden="true">{{ site.data.ui-text[site.locale].pagination_previous | default: "&laquo; Prev" }}</span></a>
@@ -152,7 +153,7 @@ layout: default
     {% if paginator.page == 1 %}
       <a href="#" class="current">1</a>
     {% else %}
-      <a href="{{ base_path }}/">1</a>
+      <a href="{{ '/' | relative_url }}">1</a>
     {% endif %}
 
     {% assign page_start = 2 %}
@@ -170,7 +171,7 @@ layout: default
 
     {% for index in (page_start..page_end) %}
       {% if index == paginator.page %}
-        <a href="{{ base_path }}/page{{ index }}/" class="current">{{ index }}</a>
+      <a class="page-number waves-effect waves-button" href="{{ base_path }}/page{{ index }}/" class="current">{{ index }}</a>
       {% else %}
         {% comment %} Distance from current page and this link {% endcomment %}
         {% assign dist = paginator.page | minus: index %}
@@ -178,7 +179,7 @@ layout: default
           {% comment %} Distance must be a positive value {% endcomment %}
           {% assign dist = 0 | minus: dist %}
         {% endif %}
-        <a href="{{ base_path }}/page{{ index }}/">{{ index }}</a>
+        <a class="page-number waves-effect waves-button" href="{{ base_path }}/page{{ index }}/">{{ index }}</a>
       {% endif %}
     {% endfor %}
 
@@ -199,6 +200,7 @@ layout: default
     {% else %}
       <a href="#" class="disabled"><span aria-hidden="true">{{ site.data.ui-text[site.locale].pagination_next | default: "Next &raquo;" }}</span></a>
     {% endif %}
+    </div>
 </nav>
 {% endif %}
 

@@ -146,7 +146,7 @@ layout: default
         <a href="{{ paginator.previous_page_path | relative_url }}">{{ site.data.ui-text[site.locale].pagination_previous | default: "&laquo; Trang trước" }}</a>
       {% endif %}
     {% else %}
-      <a href="#" class="disabled"><span aria-hidden="true">{{ site.data.ui-text[site.locale].pagination_previous | default: "&laquo; Prev" }}</span></a>
+      <!--Trang dau-->
     {% endif %}
 
     {% comment %} First page {% endcomment %}
@@ -185,7 +185,7 @@ layout: default
 
     {% comment %} Ellipsis for truncated links {% endcomment %}
     {% if pages_to_end > 3 %}
-      <a href="#" class="disabled">&hellip;</a>
+    <span class="space waves-effect waves-button"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">…</font></font></span>
     {% endif %}
 
     {% if paginator.page == paginator.total_pages %}
@@ -196,9 +196,9 @@ layout: default
 
     {% comment %} Link next page {% endcomment %}
     {% if paginator.next_page %}
-    <a class="page-number waves-effect waves-button" href="/{{ paginator.next_page }}/">{{ site.data.ui-text[site.locale].pagination_next | default: "Trang tiếp theo &raquo;" }}</a>
+    <a class="page-number waves-effect waves-button" href="/{{ paginator.next_page }}/">Trang tiếp theo &raquo;</a>
     {% else %}
-      <a href="#" class="disabled"><span aria-hidden="true">{{ site.data.ui-text[site.locale].pagination_next | default: "Next &raquo;" }}</span></a>
+      <!--Trang cuoi-->
     {% endif %}
     </div>
 </nav>

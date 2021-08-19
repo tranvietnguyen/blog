@@ -171,7 +171,7 @@ layout: default
 
     {% for index in (page_start..page_end) %}
       {% if index == paginator.page %}
-      <a class="page-number waves-effect waves-button" href="{{ base_path }}/page{{ index }}/" class="current">{{ index }}</a>
+      <span class="page-number current waves-effect waves-button">{{ index }}</span>
       {% else %}
         {% comment %} Distance from current page and this link {% endcomment %}
         {% assign dist = paginator.page | minus: index %}

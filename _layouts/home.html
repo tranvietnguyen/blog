@@ -153,14 +153,14 @@ layout: default
     {% if paginator.page == 1 %}
     <span class="page-number current waves-effect waves-button">1</span>
     {% else %}
-      <a href="{{ '/' | relative_url }}">1</a>
+    <a class="page-number waves-effect waves-button" href="{{ '/' | relative_url }}">1</a>
     {% endif %}
 
     {% assign page_start = 2 %}
     {% if paginator.page > 4 %}
       {% assign page_start = paginator.page | minus: 2 %}
       {% comment %} Ellipsis for truncated links {% endcomment %}
-      <a href="#" class="disabled">&hellip;</a>
+      <span class="space waves-effect waves-button">…</span>
     {% endif %}
 
     {% assign page_end = paginator.total_pages | minus: 1 %}
@@ -179,7 +179,7 @@ layout: default
           {% comment %} Distance must be a positive value {% endcomment %}
           {% assign dist = 0 | minus: dist %}
         {% endif %}
-        <span class="page-number current waves-effect waves-button">{{ index }}</span>
+        <a class="page-number waves-effect waves-button" href="{{ index | relative_url }}">{{ index }}</a>
       {% endif %}
     {% endfor %}
 

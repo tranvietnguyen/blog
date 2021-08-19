@@ -113,7 +113,7 @@ layout: default
     <span>&laquo; Prev</span>
   {% endif %}
 
-  {% for page in (4) %}
+  {% for page in ('4') %}
     {% if page == paginator.page %}
     <span class="page-number current waves-effect waves-button">{{ page }} {{ page+1 }} {{ page + 1 }}</span>
     {% elsif page == 1 %}

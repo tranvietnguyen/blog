@@ -191,7 +191,7 @@ layout: default
     {% if paginator.page == paginator.total_pages %}
     <span class="page-number current waves-effect waves-button">{{ paginator.page }}</span>
     {% else %}
-    <a class="page-number waves-effect waves-button" href="/{{ paginator.total_pages_path }}/">{{ paginator.total_pages }}</a>
+    <a class="page-number waves-effect waves-button" href="{{ paginator.total_pages | relative_url }}/">{{ paginator.total_pages }}</a>
     {% endif %}
 
     {% comment %} Link next page {% endcomment %}

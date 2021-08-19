@@ -63,5 +63,5 @@ excerpt_separator: <!--more-->
 
 permalink: /:categories/:title-:year:month:day:output_ext
 
-paginate: 2
-paginate_path: "/:num/"
+paginate: 1
+paginate_path: "/:num"

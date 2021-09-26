@@ -2609,6 +2609,9 @@
   position: relative;
   display: inline-block;
 }
+.post-title-link a:hover {
+    color: #414141;
+  }
 .post-title-link::after {
     content:"";
     position:absolute;
@@ -2616,7 +2619,7 @@
     height:2px;
     bottom:0;
     left:0;
-    background-color:#313131;
+    background-color:#666;
     visibility:hidden;
     -webkit-transform:scaleX(0);
     transform:scaleX(0);

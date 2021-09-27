@@ -3115,13 +3115,13 @@
 }
 
 @media screen and (min-width: 1025px) {
-    .post-content .post-card {
+    .post-card .post-content {
     font-size: 24px;
     line-height: 180%
 }
 }
 @media screen and (max-width: 480px) {
-    .post-content .post-card {
+    .post-card .post-content {
         font-size: 20px;
         line-height: 180%
 }

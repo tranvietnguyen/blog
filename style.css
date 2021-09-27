@@ -2988,14 +2988,14 @@
 }
 
 
-.post-content p {
+.post-content p, .post-content .post-copyright .content {
     font-size: 22px;
     word-wrap: break-word;
     line-height: 180%;
 }
 
 @media screen and (min-width: 1025px) {
-    .post-content p {
+    .post-content p, .post-content .post-copyright .content {
         font-size: 24px;
         word-wrap: break-word;
         line-height: 180%;
@@ -3003,7 +3003,7 @@
 }
 
 @media screen and (max-width: 480px) {
-    .post-content p {
+    .post-content p, .post-content .post-copyright .content {
         font-size: 20px;
         word-wrap: break-word;
         line-height: 180%;
@@ -3133,24 +3133,6 @@
     background:#fff;
     box-shadow:0 1px 4px 0 rgba(0,0,0,0.16);
     border-radius:2px;
-}
-
-.post-card .post-content {
-    font-size: 22px;
-    line-height: 180%;
-}
-
-@media screen and (min-width: 1025px) {
-    .post-card .post-content {
-    font-size: 24px;
-    line-height: 180%;
-}
-}
-@media screen and (max-width: 480px) {
-    .post-card .post-content {
-        font-size: 20px;
-        line-height: 180%;
-}
 }
 .post-card-title {
     display:none

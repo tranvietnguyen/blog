@@ -2981,9 +2981,30 @@
 .post-content .headerlink:before {
     content:"#"
 }
+
+
 .post-content p {
-    word-wrap:break-word
+    font-size: 22px;
+    word-wrap: break-word;
+    line-height: 180%;
 }
+
+@media screen and (min-width: 1025px) {
+    .post-content p {
+        font-size: 24px;
+        word-wrap: break-word;
+        line-height: 180%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .post-content p {
+        font-size: 20px;
+        word-wrap: break-word;
+        line-height: 180%;
+    }
+}
+
 .post-content p a,.post-content li a {
     color:#ff4081;border-bottom:1px dotted #ffa6c4;word-break:break-all
 }
@@ -3111,19 +3132,19 @@
 
 .post-card .post-content {
     font-size: 22px;
-    line-height: 180%
+    line-height: 180%;
 }
 
 @media screen and (min-width: 1025px) {
     .post-card .post-content {
     font-size: 24px;
-    line-height: 180%
+    line-height: 180%;
 }
 }
 @media screen and (max-width: 480px) {
     .post-card .post-content {
         font-size: 20px;
-        line-height: 180%
+        line-height: 180%;
 }
 }
 .post-card-title {

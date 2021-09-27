@@ -3109,19 +3109,19 @@
     border-radius:2px;
 }
 
-.post-card .post-content {
+.post-content .post-card {
     font-size: 22px;
     line-height: 180%
 }
 
 @media (min-width: 1025px) {
-    .post-card .post-content {
+    .post-content .post-card {
     font-size: 24px;
     line-height: 180%
 }
 }
 @media (max-width: 480px) {
-    .post-card .post-content {
+    .post-content .post-card {
         font-size: 20px;
         line-height: 180%
 }

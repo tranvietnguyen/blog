@@ -15,12 +15,18 @@ Mà họ chỉ có thể tôn trọng bạn, khi và chỉ khi bạn cho họ L�
 
 Nếu bạn là một thằng bố loser, ngu nghèo hèn, level thấp, trong cuộc sống hằng ngày không tu tâm dưỡng tính, hay bắt nạt đàn áp vợ con, thì họ không thể tôn trọng bạn được dù họ là gia đình của bạn.
 
-Tương tự cho mọi đối tượng khác bạn gặp trong đời cũng y như vậy. Mối quan hệ giữa họ và bạn càng xa, thì sự kiên nhẫn họ dành cho bạn càng mỏng. 
-Người phương Tây có câu "Respect is earned, not given", dịch ra là "Sự tôn trọng là thứ ta phải đạt lấy, chứ không mặc định được cho". 
+Tương tự cho mọi đối tượng khác bạn gặp trong đời cũng y như vậy. Mối quan hệ giữa họ và bạn càng xa, thì sự kiên nhẫn họ dành cho bạn càng mỏng.
+
+Người phương Tây có câu "Respect is earned, not given", dịch ra là "Sự tôn trọng là thứ ta phải đạt lấy, chứ không mặc định được cho".
+
 Tôi từng chứng kiến cảnh cãi vã hoặc đánh ghen gì đó của một cậu thanh niên, mắt đỏ ngầu, tóc tai bù xù, mồm nồng nặc mùi rượu, quần áo xốc xếch như vừa nhậu ở đâu xong, gào thét vào mặt bạn gái mình câu "Sao mày KHÔNG CHỊU TÔN TRỌNG tao ĐCM ABC XYZ".
+
 Thử hỏi, nhìn cậu ta trong bộ dạng đó, ai mà tôn trọng cho nổi? Chính cậu ta cho cô gái đó lý do để không tôn trọng mình.
+
 Tôi cũng từng chứng kiến cảnh một gã bố tay vừa tát con mình những cú trời giáng, mồm vừa chửi nó "ĐM mày DÁM LÁO VỚI BỐ MÀY NÀY, DÁM KHÔNG TÔN TRỌNG BỐ MÀY này ABC XYZ". 
+
 Thử hỏi, với một người "bố" như vậy, làm sao nó tôn trọng nổi? Chính ông ta cho con mình lý do để không tôn trọng mình.
+
 Sự thật này khá cay đắng và khó chấp nhận, nhưng bạn phải cố gắng nuốt lấy thôi, không có cách nào khác.
 
 Nói chung, bất cứ thứ gì ta nhận được và không nhận được từ bất cứ ai khác NGOÀI ta ra, đều có LÝ DO cả. Và đa phần lý do đó, trớ trêu thay, bắt nguồn từ CHÍNH TA.<!--excerpt.s-->

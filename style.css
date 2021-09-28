@@ -2835,7 +2835,7 @@
     box-shadow:0 6px 12px rgba(0,0,0,0.2),0 4px 15px rgba(0,0,0,0.2)
 }
 .page-share .share-icons a:before {
-    content:'分享到' attr(data-title)
+    content:'Chia sẻ lên' attr(data-title)
 }
 .page-share .share-icons li {
     margin-bottom:10px

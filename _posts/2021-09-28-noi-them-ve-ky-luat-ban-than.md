@@ -10,7 +10,6 @@ meta: "Kỷ luật"
 Nói về KỶ LUẬT.
 
 Nhìn một người có KỶ LUẬT (tức là khả năng làm đến cùng một việc cần phải làm, dù muốn hay không, dù thích hay không), ta có thể nhìn thấy những PHẨM CHẤT khác ở người đó như sau:
-
 1. Khả năng làm chủ cảm xúc tốt. (Anh ta chống lại được những cám dỗ về mặt cảm xúc để tập trung 100% năng lượng cho công việc của mình).
 
 2. Ý chí cao cường.

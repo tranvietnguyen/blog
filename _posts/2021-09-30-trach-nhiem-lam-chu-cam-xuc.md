@@ -11,9 +11,9 @@ Nói chung, sống ở đời, chỉ cần bạn không làm hại đến lợi 
 
 Khi đã làm được (và duy trì) những điều trên, thì những điều sau đây KHÔNG phải VẤN ĐỀ của bạn:
 
-1, Cảm xúc của người khác đối với bạn
+1, Cảm xúc của người khác đối với bạn.
 
-2, Lời nói của người khác đối với bạn
+2, Lời nói của người khác đối với bạn.
 
 3, Thái độ của người khác đối với bạn.
 

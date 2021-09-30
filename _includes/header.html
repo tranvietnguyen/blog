@@ -42,7 +42,7 @@
   </a>
   <div class="flex-col header-title ellipsis">
     {%- if page.title -%}
-    {{ page.title | escape }}
+    <span style="visibility: hidden">{{ page.title | escape }}</span>
     {% else %}
     {{ site.title | escape }}
     {%- endif -%}

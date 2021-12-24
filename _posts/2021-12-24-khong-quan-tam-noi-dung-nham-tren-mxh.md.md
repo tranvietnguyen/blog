@@ -4,7 +4,7 @@ title: ""
 categories:
 author:
 - Thầy Giáo Giảng
-tags: [Con người chân chính, Chân Thiện Mỹ, Đàn ông chân chính, Kỹ năng sống, trung tâm của chính mình]
+tags: [Con người chân chính, Chân Thiện Mỹ, Kỹ năng sống, không quan tâm nội dung nhảm mạng xã hội]
 meta: "Kỹ năng sống"
 ---
 Xem gì thì xem, đọc gì thì đọc, các bạn tuyệt đối không nên quan tâm đến những nội dung mang tính khoe khoang của người dùng mạng xã hội (MXH) như Facebook, Instagram hay Tik Tok gì đó.
@@ -18,7 +18,7 @@ Nhưng các bạn chớ quên, rằng trên cuộc đời này, người ta ch�
 Những điều long lanh đẹp đẽ thiên hạ chủ động khoe lên mạng chỉ là "phần nổi" của tảng băng chìm thôi, còn bao nhiêu những góc tối & góc khuất & vấn đề cá nhân của đời họ, họ giấu đi, thì làm sao bạn biết được?
 
 Tóm lại, nếu sự khoe khoang của thiên hạ trên MXH đang khiến bạn cảm thấy thất vọng và bất hạnh về cuộc sống của bản thân, rất có thể bạn đang "chơi" MXH sai cách và bạn chưa đủ bản lĩnh cũng như sự trưởng thành để nhìn nhận vấn đề này nói riêng và cuộc đời nói chung đúng với bản chất thật sự của nó.
-<img src="https://scontent-hkt1-1.xx.fbcdn.net/v/t1.6435-9/117645397_401276974172875_4052733420000130319_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=730e14&_nc_ohc=gL1iFa6SFksAX8Wjxmt&_nc_ht=scontent-hkt1-1.xx&oh=9a40d0f2ae2ab40ba7abc84605295ea5&oe=61799896" /><!--excerpt.s-->
+<!--excerpt.s-->
 <div class="post-copyright"><div class="content">Đối với tôi, bản thân MXH như FB, Insta, Tik Tok tốt hay xấu tùy thuộc vào "chất lượng" của người sử dụng chúng.<br />
 Cũng như súng. Nếu ở trong tay người đàng hoàng & biết dùng, nó là công cụ giúp họ tự vệ & trấn áp kẻ xấu. Nếu rơi vào tay thằng trẻ trâu lưu manh vô học, nó là vũ khí giết người gây tai họa.<br />
 Đa phần (không phải tất cả) các bạn chưa đủ bản lĩnh để chơi MXH đúng cách đâu, vì từ trong vô thức các bạn vẫn bị chúng tác động theo hướng tiêu cực mà không hay biết.</div></div>
